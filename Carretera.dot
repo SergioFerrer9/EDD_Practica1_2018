@@ -1,0 +1,11 @@
+digraph g {
+ rankdir= "LR";
+node [
+fontsize = "10"
+shape = "Mrecord"
+color="darkslateblue"
+style ="filled, bold"
+];
+"nodoEntrada"
+[ label=" Entrada"];
+}

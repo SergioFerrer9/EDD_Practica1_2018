@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1519265953 source:/home/debian9/Escritorio/Practica1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

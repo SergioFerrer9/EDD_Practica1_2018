@@ -1,0 +1,590 @@
+digraph g {
+ node [
+fontsize = "10"
+shape = "Mrecord"
+color="darkslateblue"
+style ="filled, bold"
+];
+
+ subgraph cluster_6 {
+node [style=filled];
+"nodoF1"
+[ label=" Producto: 1"];
+"nodoC11"
+[ label=" NULL"];
+"nodoC12"
+[ label=" NULL"];
+"nodoC13"
+[ label=" NULL"];
+"nodoC14"
+[ label=" NULL"];
+"nodoF2"
+[ label=" Producto: 2"];
+"nodoC21"
+[ label=" NULL"];
+"nodoC22"
+[ label=" NULL"];
+"nodoC23"
+[ label=" NULL"];
+"nodoC24"
+[ label=" NULL"];
+"nodoF3"
+[ label=" Producto: 3"];
+"nodoC31"
+[ label=" NULL"];
+"nodoC32"
+[ label=" NULL"];
+"nodoC33"
+[ label=" NULL"];
+"nodoC34"
+[ label=" NULL"];
+"nodoF4"
+[ label=" Producto: 4"];
+"nodoC41"
+[ label=" NULL"];
+"nodoC42"
+[ label=" NULL"];
+"nodoC43"
+[ label=" NULL"];
+"nodoC44"
+[ label=" NULL"];
+"nodoF5"
+[ label=" Producto: 5"];
+"nodoC51"
+[ label=" NULL"];
+"nodoC52"
+[ label=" NULL"];
+"nodoC53"
+[ label=" NULL"];
+"nodoC54"
+[ label=" NULL"];
+"nodoF6"
+[ label=" Producto: 6"];
+"nodoC61"
+[ label=" NULL"];
+"nodoC62"
+[ label=" NULL"];
+"nodoC63"
+[ label=" NULL"];
+"nodoC64"
+[ label=" NULL"];
+"nodoF7"
+[ label=" Producto: 7"];
+"nodoC71"
+[ label=" NULL"];
+"nodoC72"
+[ label=" NULL"];
+"nodoC73"
+[ label=" NULL"];
+"nodoC74"
+[ label=" NULL"];
+"nodoF8"
+[ label=" Producto: 8"];
+"nodoC81"
+[ label=" NULL"];
+"nodoC82"
+[ label=" NULL"];
+"nodoC83"
+[ label=" NULL"];
+"nodoC84"
+[ label=" NULL"];
+"nodoF9"
+[ label=" Producto: 9"];
+"nodoC91"
+[ label=" NULL"];
+"nodoC92"
+[ label=" NULL"];
+"nodoC93"
+[ label=" NULL"];
+"nodoC94"
+[ label=" NULL"];
+"nodoF10"
+[ label=" Producto: 10"];
+"nodoC101"
+[ label=" NULL"];
+"nodoC102"
+[ label=" NULL"];
+"nodoC103"
+[ label=" NULL"];
+"nodoC104"
+[ label=" NULL"];
+{rank = same; "nodoF1";"nodoC11";"nodoC12";"nodoC13";"nodoC14";}
+{rank = same; "nodoF2";"nodoC21";"nodoC22";"nodoC23";"nodoC24";}
+{rank = same; "nodoF3";"nodoC31";"nodoC32";"nodoC33";"nodoC34";}
+{rank = same; "nodoF4";"nodoC41";"nodoC42";"nodoC43";"nodoC44";}
+{rank = same; "nodoF5";"nodoC51";"nodoC52";"nodoC53";"nodoC54";}
+{rank = same; "nodoF6";"nodoC61";"nodoC62";"nodoC63";"nodoC64";}
+{rank = same; "nodoF7";"nodoC71";"nodoC72";"nodoC73";"nodoC74";}
+{rank = same; "nodoF8";"nodoC81";"nodoC82";"nodoC83";"nodoC84";}
+{rank = same; "nodoF9";"nodoC91";"nodoC92";"nodoC93";"nodoC94";}
+{rank = same; "nodoF10";"nodoC101";"nodoC102";"nodoC103";"nodoC104";}
+"nodoF1"-> "nodoC11";
+"nodoF1"-> "nodoF2";
+"nodoC11"-> "nodoC12";
+"nodoC12"-> "nodoC13";
+"nodoC13"-> "nodoC14";
+"nodoF2"-> "nodoC21";
+"nodoF2"-> "nodoF3";
+"nodoC21"-> "nodoC22";
+"nodoC22"-> "nodoC23";
+"nodoC23"-> "nodoC24";
+"nodoF3"-> "nodoC31";
+"nodoF3"-> "nodoF4";
+"nodoC31"-> "nodoC32";
+"nodoC32"-> "nodoC33";
+"nodoC33"-> "nodoC34";
+"nodoF4"-> "nodoC41";
+"nodoF4"-> "nodoF5";
+"nodoC41"-> "nodoC42";
+"nodoC42"-> "nodoC43";
+"nodoC43"-> "nodoC44";
+"nodoF5"-> "nodoC51";
+"nodoF5"-> "nodoF6";
+"nodoC51"-> "nodoC52";
+"nodoC52"-> "nodoC53";
+"nodoC53"-> "nodoC54";
+"nodoF6"-> "nodoC61";
+"nodoF6"-> "nodoF7";
+"nodoC61"-> "nodoC62";
+"nodoC62"-> "nodoC63";
+"nodoC63"-> "nodoC64";
+"nodoF7"-> "nodoC71";
+"nodoF7"-> "nodoF8";
+"nodoC71"-> "nodoC72";
+"nodoC72"-> "nodoC73";
+"nodoC73"-> "nodoC74";
+"nodoF8"-> "nodoC81";
+"nodoF8"-> "nodoF9";
+"nodoC81"-> "nodoC82";
+"nodoC82"-> "nodoC83";
+"nodoC83"-> "nodoC84";
+"nodoF9"-> "nodoC91";
+"nodoF9"-> "nodoF10";
+"nodoC91"-> "nodoC92";
+"nodoC92"-> "nodoC93";
+"nodoC93"-> "nodoC94";
+"nodoF10"-> "nodoC101";
+"nodoC101"-> "nodoC102";
+"nodoC102"-> "nodoC103";
+"nodoC103"-> "nodoC104";
+fontsize = "10"
+shape = "Mrecord"
+color="BROWN"
+style ="filled, bold"
+label ="Matriz"
+}
+
+ subgraph cluster_8 {
+node [style=filled];
+"nodoRF1"
+[ label=" 1 &#92;n NULL"];
+"nodoRF2"
+[ label=" 2 &#92;n NULL"];
+"nodoRF3"
+[ label=" 3 &#92;n NULL"];
+"nodoRF4"
+[ label=" 4 &#92;n NULL"];
+"nodoRF5"
+[ label=" 5 &#92;n NULL"];
+"nodoRF6"
+[ label=" 6 &#92;n NULL"];
+"nodoRF7"
+[ label=" 7 &#92;n NULL"];
+"nodoRF8"
+[ label=" 8 &#92;n NULL"];
+"nodoRF9"
+[ label=" 9 &#92;n NULL"];
+"nodoRF10"
+[ label=" 10 &#92;n NULL"];
+"nodoRF11"
+[ label=" 11 &#92;n NULL"];
+"nodoRF12"
+[ label=" 12 &#92;n NULL"];
+"nodoRF13"
+[ label=" 13 &#92;n NULL"];
+"nodoRF14"
+[ label=" 14 &#92;n NULL"];
+"nodoRF15"
+[ label=" 15 &#92;n NULL"];
+"nodoRF16"
+[ label=" 16 &#92;n NULL"];
+"nodoRF17"
+[ label=" 17 &#92;n NULL"];
+"nodoRF18"
+[ label=" 18 &#92;n NULL"];
+"nodoRF19"
+[ label=" 19 &#92;n NULL"];
+"nodoRF20"
+[ label=" 20 &#92;n NULL"];
+"nodoRF21"
+[ label=" 21 &#92;n NULL"];
+"nodoRF22"
+[ label=" 22 &#92;n NULL"];
+"nodoRF23"
+[ label=" 23 &#92;n NULL"];
+"nodoRF24"
+[ label=" 24 &#92;n NULL"];
+"nodoRF25"
+[ label=" 25 &#92;n NULL"];
+"nodoRF26"
+[ label=" 26 &#92;n NULL"];
+"nodoRF27"
+[ label=" 27 &#92;n NULL"];
+"nodoRF28"
+[ label=" 28 &#92;n NULL"];
+"nodoRF29"
+[ label=" 29 &#92;n NULL"];
+"nodoRF30"
+[ label=" 30 &#92;n NULL"];
+"nodoRF31"
+[ label=" 31 &#92;n NULL"];
+"nodoRF32"
+[ label=" 32 &#92;n NULL"];
+"nodoRF33"
+[ label=" 33 &#92;n NULL"];
+"nodoRF34"
+[ label=" 34 &#92;n NULL"];
+"nodoRF35"
+[ label=" 35 &#92;n NULL"];
+"nodoRF36"
+[ label=" 36 &#92;n NULL"];
+"nodoRF37"
+[ label=" 37 &#92;n NULL"];
+"nodoRF38"
+[ label=" 38 &#92;n NULL"];
+"nodoRF39"
+[ label=" 39 &#92;n NULL"];
+"nodoRF40"
+[ label=" 40 &#92;n NULL"];
+"nodoRF41"
+[ label=" 41 &#92;n NULL"];
+"nodoRF42"
+[ label=" 42 &#92;n NULL"];
+"nodoRF43"
+[ label=" 43 &#92;n NULL"];
+"nodoRF44"
+[ label=" 44 &#92;n NULL"];
+"nodoRF45"
+[ label=" 45 &#92;n NULL"];
+"nodoRF46"
+[ label=" 46 &#92;n NULL"];
+"nodoRF47"
+[ label=" 47 &#92;n NULL"];
+"nodoRF48"
+[ label=" 48 &#92;n NULL"];
+"nodoRF49"
+[ label=" 49 &#92;n NULL"];
+"nodoRF50"
+[ label=" 50 &#92;n NULL"];
+"nodoRF1"-> "nodoRF2";
+"nodoRF2"-> "nodoRF1";
+"nodoRF2"-> "nodoRF3";
+"nodoRF3"-> "nodoRF2";
+"nodoRF3"-> "nodoRF4";
+"nodoRF4"-> "nodoRF3";
+"nodoRF4"-> "nodoRF5";
+"nodoRF5"-> "nodoRF4";
+"nodoRF5"-> "nodoRF6";
+"nodoRF6"-> "nodoRF5";
+"nodoRF6"-> "nodoRF7";
+"nodoRF7"-> "nodoRF6";
+"nodoRF7"-> "nodoRF8";
+"nodoRF8"-> "nodoRF7";
+"nodoRF8"-> "nodoRF9";
+"nodoRF9"-> "nodoRF8";
+"nodoRF9"-> "nodoRF10";
+"nodoRF10"-> "nodoRF9";
+"nodoRF10"-> "nodoRF11";
+"nodoRF11"-> "nodoRF10";
+"nodoRF11"-> "nodoRF12";
+"nodoRF12"-> "nodoRF11";
+"nodoRF12"-> "nodoRF13";
+"nodoRF13"-> "nodoRF12";
+"nodoRF13"-> "nodoRF14";
+"nodoRF14"-> "nodoRF13";
+"nodoRF14"-> "nodoRF15";
+"nodoRF15"-> "nodoRF14";
+"nodoRF15"-> "nodoRF16";
+"nodoRF16"-> "nodoRF15";
+"nodoRF16"-> "nodoRF17";
+"nodoRF17"-> "nodoRF16";
+"nodoRF17"-> "nodoRF18";
+"nodoRF18"-> "nodoRF17";
+"nodoRF18"-> "nodoRF19";
+"nodoRF19"-> "nodoRF18";
+"nodoRF19"-> "nodoRF20";
+"nodoRF20"-> "nodoRF19";
+"nodoRF20"-> "nodoRF21";
+"nodoRF21"-> "nodoRF20";
+"nodoRF21"-> "nodoRF22";
+"nodoRF22"-> "nodoRF21";
+"nodoRF22"-> "nodoRF23";
+"nodoRF23"-> "nodoRF22";
+"nodoRF23"-> "nodoRF24";
+"nodoRF24"-> "nodoRF23";
+"nodoRF24"-> "nodoRF25";
+"nodoRF25"-> "nodoRF24";
+"nodoRF25"-> "nodoRF26";
+"nodoRF26"-> "nodoRF25";
+"nodoRF26"-> "nodoRF27";
+"nodoRF27"-> "nodoRF26";
+"nodoRF27"-> "nodoRF28";
+"nodoRF28"-> "nodoRF27";
+"nodoRF28"-> "nodoRF29";
+"nodoRF29"-> "nodoRF28";
+"nodoRF29"-> "nodoRF30";
+"nodoRF30"-> "nodoRF29";
+"nodoRF30"-> "nodoRF31";
+"nodoRF31"-> "nodoRF30";
+"nodoRF31"-> "nodoRF32";
+"nodoRF32"-> "nodoRF31";
+"nodoRF32"-> "nodoRF33";
+"nodoRF33"-> "nodoRF32";
+"nodoRF33"-> "nodoRF34";
+"nodoRF34"-> "nodoRF33";
+"nodoRF34"-> "nodoRF35";
+"nodoRF35"-> "nodoRF34";
+"nodoRF35"-> "nodoRF36";
+"nodoRF36"-> "nodoRF35";
+"nodoRF36"-> "nodoRF37";
+"nodoRF37"-> "nodoRF36";
+"nodoRF37"-> "nodoRF38";
+"nodoRF38"-> "nodoRF37";
+"nodoRF38"-> "nodoRF39";
+"nodoRF39"-> "nodoRF38";
+"nodoRF39"-> "nodoRF40";
+"nodoRF40"-> "nodoRF39";
+"nodoRF40"-> "nodoRF41";
+"nodoRF41"-> "nodoRF40";
+"nodoRF41"-> "nodoRF42";
+"nodoRF42"-> "nodoRF41";
+"nodoRF42"-> "nodoRF43";
+"nodoRF43"-> "nodoRF42";
+"nodoRF43"-> "nodoRF44";
+"nodoRF44"-> "nodoRF43";
+"nodoRF44"-> "nodoRF45";
+"nodoRF45"-> "nodoRF44";
+"nodoRF45"-> "nodoRF46";
+"nodoRF46"-> "nodoRF45";
+"nodoRF46"-> "nodoRF47";
+"nodoRF47"-> "nodoRF46";
+"nodoRF47"-> "nodoRF48";
+"nodoRF48"-> "nodoRF47";
+"nodoRF48"-> "nodoRF49";
+"nodoRF49"-> "nodoRF48";
+"nodoRF49"-> "nodoRF50";
+"nodoRF50"-> "nodoRF49";
+fontsize = "10"
+shape = "Mrecord"
+color="BROWN"
+style ="filled, bold"
+label ="Recorrido Por Filas"
+}
+
+ subgraph cluster_9 {
+node [style=filled];
+"nodoRC1"
+[ label=" 1 &#92;n NULL"];
+"nodoRC2"
+[ label=" 2 &#92;n NULL"];
+"nodoRC3"
+[ label=" 3 &#92;n NULL"];
+"nodoRC4"
+[ label=" 4 &#92;n NULL"];
+"nodoRC5"
+[ label=" 5 &#92;n NULL"];
+"nodoRC6"
+[ label=" 6 &#92;n NULL"];
+"nodoRC7"
+[ label=" 7 &#92;n NULL"];
+"nodoRC8"
+[ label=" 8 &#92;n NULL"];
+"nodoRC9"
+[ label=" 9 &#92;n NULL"];
+"nodoRC10"
+[ label=" 10 &#92;n NULL"];
+"nodoRC11"
+[ label=" 11 &#92;n NULL"];
+"nodoRC12"
+[ label=" 12 &#92;n NULL"];
+"nodoRC13"
+[ label=" 13 &#92;n NULL"];
+"nodoRC14"
+[ label=" 14 &#92;n NULL"];
+"nodoRC15"
+[ label=" 15 &#92;n NULL"];
+"nodoRC16"
+[ label=" 16 &#92;n NULL"];
+"nodoRC17"
+[ label=" 17 &#92;n NULL"];
+"nodoRC18"
+[ label=" 18 &#92;n NULL"];
+"nodoRC19"
+[ label=" 19 &#92;n NULL"];
+"nodoRC20"
+[ label=" 20 &#92;n NULL"];
+"nodoRC21"
+[ label=" 21 &#92;n NULL"];
+"nodoRC22"
+[ label=" 22 &#92;n NULL"];
+"nodoRC23"
+[ label=" 23 &#92;n NULL"];
+"nodoRC24"
+[ label=" 24 &#92;n NULL"];
+"nodoRC25"
+[ label=" 25 &#92;n NULL"];
+"nodoRC26"
+[ label=" 26 &#92;n NULL"];
+"nodoRC27"
+[ label=" 27 &#92;n NULL"];
+"nodoRC28"
+[ label=" 28 &#92;n NULL"];
+"nodoRC29"
+[ label=" 29 &#92;n NULL"];
+"nodoRC30"
+[ label=" 30 &#92;n NULL"];
+"nodoRC31"
+[ label=" 31 &#92;n NULL"];
+"nodoRC32"
+[ label=" 32 &#92;n NULL"];
+"nodoRC33"
+[ label=" 33 &#92;n NULL"];
+"nodoRC34"
+[ label=" 34 &#92;n NULL"];
+"nodoRC35"
+[ label=" 35 &#92;n NULL"];
+"nodoRC36"
+[ label=" 36 &#92;n NULL"];
+"nodoRC37"
+[ label=" 37 &#92;n NULL"];
+"nodoRC38"
+[ label=" 38 &#92;n NULL"];
+"nodoRC39"
+[ label=" 39 &#92;n NULL"];
+"nodoRC40"
+[ label=" 40 &#92;n NULL"];
+"nodoRC41"
+[ label=" 41 &#92;n NULL"];
+"nodoRC42"
+[ label=" 42 &#92;n NULL"];
+"nodoRC43"
+[ label=" 43 &#92;n NULL"];
+"nodoRC44"
+[ label=" 44 &#92;n NULL"];
+"nodoRC45"
+[ label=" 45 &#92;n NULL"];
+"nodoRC46"
+[ label=" 46 &#92;n NULL"];
+"nodoRC47"
+[ label=" 47 &#92;n NULL"];
+"nodoRC48"
+[ label=" 48 &#92;n NULL"];
+"nodoRC49"
+[ label=" 49 &#92;n NULL"];
+"nodoRC50"
+[ label=" 50 &#92;n NULL"];
+"nodoRC1"-> "nodoRC2";
+"nodoRC2"-> "nodoRC1";
+"nodoRC2"-> "nodoRC3";
+"nodoRC3"-> "nodoRC2";
+"nodoRC3"-> "nodoRC4";
+"nodoRC4"-> "nodoRC3";
+"nodoRC4"-> "nodoRC5";
+"nodoRC5"-> "nodoRC4";
+"nodoRC5"-> "nodoRC6";
+"nodoRC6"-> "nodoRC5";
+"nodoRC6"-> "nodoRC7";
+"nodoRC7"-> "nodoRC6";
+"nodoRC7"-> "nodoRC8";
+"nodoRC8"-> "nodoRC7";
+"nodoRC8"-> "nodoRC9";
+"nodoRC9"-> "nodoRC8";
+"nodoRC9"-> "nodoRC10";
+"nodoRC10"-> "nodoRC9";
+"nodoRC10"-> "nodoRC11";
+"nodoRC11"-> "nodoRC10";
+"nodoRC11"-> "nodoRC12";
+"nodoRC12"-> "nodoRC11";
+"nodoRC12"-> "nodoRC13";
+"nodoRC13"-> "nodoRC12";
+"nodoRC13"-> "nodoRC14";
+"nodoRC14"-> "nodoRC13";
+"nodoRC14"-> "nodoRC15";
+"nodoRC15"-> "nodoRC14";
+"nodoRC15"-> "nodoRC16";
+"nodoRC16"-> "nodoRC15";
+"nodoRC16"-> "nodoRC17";
+"nodoRC17"-> "nodoRC16";
+"nodoRC17"-> "nodoRC18";
+"nodoRC18"-> "nodoRC17";
+"nodoRC18"-> "nodoRC19";
+"nodoRC19"-> "nodoRC18";
+"nodoRC19"-> "nodoRC20";
+"nodoRC20"-> "nodoRC19";
+"nodoRC20"-> "nodoRC21";
+"nodoRC21"-> "nodoRC20";
+"nodoRC21"-> "nodoRC22";
+"nodoRC22"-> "nodoRC21";
+"nodoRC22"-> "nodoRC23";
+"nodoRC23"-> "nodoRC22";
+"nodoRC23"-> "nodoRC24";
+"nodoRC24"-> "nodoRC23";
+"nodoRC24"-> "nodoRC25";
+"nodoRC25"-> "nodoRC24";
+"nodoRC25"-> "nodoRC26";
+"nodoRC26"-> "nodoRC25";
+"nodoRC26"-> "nodoRC27";
+"nodoRC27"-> "nodoRC26";
+"nodoRC27"-> "nodoRC28";
+"nodoRC28"-> "nodoRC27";
+"nodoRC28"-> "nodoRC29";
+"nodoRC29"-> "nodoRC28";
+"nodoRC29"-> "nodoRC30";
+"nodoRC30"-> "nodoRC29";
+"nodoRC30"-> "nodoRC31";
+"nodoRC31"-> "nodoRC30";
+"nodoRC31"-> "nodoRC32";
+"nodoRC32"-> "nodoRC31";
+"nodoRC32"-> "nodoRC33";
+"nodoRC33"-> "nodoRC32";
+"nodoRC33"-> "nodoRC34";
+"nodoRC34"-> "nodoRC33";
+"nodoRC34"-> "nodoRC35";
+"nodoRC35"-> "nodoRC34";
+"nodoRC35"-> "nodoRC36";
+"nodoRC36"-> "nodoRC35";
+"nodoRC36"-> "nodoRC37";
+"nodoRC37"-> "nodoRC36";
+"nodoRC37"-> "nodoRC38";
+"nodoRC38"-> "nodoRC37";
+"nodoRC38"-> "nodoRC39";
+"nodoRC39"-> "nodoRC38";
+"nodoRC39"-> "nodoRC40";
+"nodoRC40"-> "nodoRC39";
+"nodoRC40"-> "nodoRC41";
+"nodoRC41"-> "nodoRC40";
+"nodoRC41"-> "nodoRC42";
+"nodoRC42"-> "nodoRC41";
+"nodoRC42"-> "nodoRC43";
+"nodoRC43"-> "nodoRC42";
+"nodoRC43"-> "nodoRC44";
+"nodoRC44"-> "nodoRC43";
+"nodoRC44"-> "nodoRC45";
+"nodoRC45"-> "nodoRC44";
+"nodoRC45"-> "nodoRC46";
+"nodoRC46"-> "nodoRC45";
+"nodoRC46"-> "nodoRC47";
+"nodoRC47"-> "nodoRC46";
+"nodoRC47"-> "nodoRC48";
+"nodoRC48"-> "nodoRC47";
+"nodoRC48"-> "nodoRC49";
+"nodoRC49"-> "nodoRC48";
+"nodoRC49"-> "nodoRC50";
+"nodoRC50"-> "nodoRC49";
+fontsize = "10"
+shape = "Mrecord"
+color="BROWN"
+style ="filled, bold"
+label ="Recorrido Por Columnas"
+}
+}

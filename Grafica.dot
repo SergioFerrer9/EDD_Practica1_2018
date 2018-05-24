@@ -1,0 +1,104 @@
+digraph g {
+ rankdir= "LR";
+node [
+fontsize = "10"
+shape = "Mrecord"
+color="darkslateblue"
+style ="filled, bold"
+];
+"nodoEntrada"
+[ label=" Entrada"];
+
+ subgraph cluster_1 {
+node [style=filled];
+"nodoPa"
+[ label=" NULL "];
+fontsize = "10"
+shape = "Mrecord"
+color="orange"
+style ="filled, bold"
+label ="Parqueo"
+}
+
+ subgraph cluster_2 {
+node [style=filled];
+"nodoSu1"
+[ label=" ID: 1"];
+"nodoSu2"
+[ label=" ID: 2"];
+"nodoSu3"
+[ label=" ID: 3"];
+"nodoSu4"
+[ label=" ID: 4"];
+"nodoSu5"
+[ label=" ID: 5"];
+"nodoSu6"
+[ label=" ID: 6"];
+"nodoSu7"
+[ label=" ID: 7"];
+"nodoSu8"
+[ label=" ID: 8"];
+"nodoSu9"
+[ label=" ID: 9"];
+"nodoSu10"
+[ label=" ID: 10"];
+"nodoSu1"-> "nodoSu2";
+"nodoSu2"-> "nodoSu1";
+"nodoSu2"-> "nodoSu3";
+"nodoSu3"-> "nodoSu2";
+"nodoSu3"-> "nodoSu4";
+"nodoSu4"-> "nodoSu3";
+"nodoSu4"-> "nodoSu5";
+"nodoSu5"-> "nodoSu4";
+"nodoSu5"-> "nodoSu6";
+"nodoSu6"-> "nodoSu5";
+"nodoSu6"-> "nodoSu7";
+"nodoSu7"-> "nodoSu6";
+"nodoSu7"-> "nodoSu8";
+"nodoSu8"-> "nodoSu7";
+"nodoSu8"-> "nodoSu9";
+"nodoSu9"-> "nodoSu8";
+"nodoSu9"-> "nodoSu10";
+"nodoSu10"-> "nodoSu9";
+"nodoSu10"-> "nodoSu1";
+"nodoSu1"-> "nodoSu10";
+fontsize = "10"
+shape = "Mrecord"
+color="LIMEGREEN"
+style ="filled, bold"
+label ="Supermercado"
+}
+
+ subgraph cluster_3 {
+node [style=filled];
+"nodoCaj"
+[ label=" NULL "];
+fontsize = "10"
+shape = "Mrecord"
+color="TOMATO"
+style ="filled, bold"
+label ="Cajeros"
+}
+
+ subgraph cluster_4 {
+node [style=filled];
+"nodoV"
+[ label=" NULL "];
+fontsize = "10"
+shape = "Mrecord"
+color="SKYBLUE"
+style ="filled, bold"
+label ="Ventas"
+}
+
+ subgraph cluster_5 {
+node [style=filled];
+"nodoSub"
+[ label=" NULL "];
+fontsize = "10"
+shape = "Mrecord"
+color="SKYBLUE"
+style ="filled, bold"
+label ="SubLista Ventas"
+}
+}

@@ -1,0 +1,20 @@
+digraph g {
+ rankdir= "LR";
+node [
+fontsize = "10"
+shape = "Mrecord"
+color="darkslateblue"
+style ="filled, bold"
+];
+
+ subgraph cluster_1 {
+node [style=filled];
+"nodoPa"
+[ label=" NULL "];
+fontsize = "10"
+shape = "Mrecord"
+color="orange"
+style ="filled, bold"
+label ="Parqueo"
+}
+}

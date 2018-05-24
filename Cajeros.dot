@@ -1,0 +1,35 @@
+digraph g {
+ rankdir= "LR";
+node [
+fontsize = "10"
+shape = "Mrecord"
+color="darkslateblue"
+style ="filled, bold"
+];
+
+ subgraph cluster_3 {
+node [style=filled];
+"nodoCaj1"
+[ label=" ID: 1 &#92;n Cajero: 1"];
+"nodoCaj2"
+[ label=" ID: 2 &#92;n Cajero: 2"];
+"nodoCajClie21"
+[ label=" Cliente: 2 &#92;n Productos: 2 &#92;n Total: 400"];
+"nodoCaj3"
+[ label=" ID: 3 &#92;n Cajero: 3"];
+"nodoCajClie31"
+[ label=" Cliente: 3 &#92;n Productos: 1 &#92;n Total: 300"];
+"nodoCajClie32"
+[ label=" Cliente: 4 &#92;n Productos: 4 &#92;n Total: 400"];
+"nodoCaj1"-> "nodoCaj2";
+"nodoCaj2"-> "nodoCaj3";
+"nodoCaj2"-> "nodoCajClie21";
+"nodoCaj3"-> "nodoCajClie31";
+"nodoCajClie31"-> "nodoCajClie32";
+fontsize = "10"
+shape = "Mrecord"
+color="TOMATO"
+style ="filled, bold"
+label ="Cajeros"
+}
+}
